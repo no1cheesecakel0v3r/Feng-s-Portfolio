@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feng's Portfolio</title>
+    
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+</head>
+<body>
+    <div class="slideshow-container" id="slideshow-container">
+        <!-- Slideshow images will be injected here via JavaScript -->
+    </div>
+
+    <header>
+        <div class="container">
+            <nav class="navbar navbar-expand-lg">
+                <div class="navbar-logo">
+                    <img src="./media/logo.png" alt="Logo" class="logo-image">
+                </div>
+                <a class="navbar-brand" href="/">FENG</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="/" data-nav="home">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./pages/works.html" data-nav="works">Works</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./pages/about.html" data-nav="about">About Me</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-md-6">
+                        <div class="hero-content">
+                            <h1>Welcome to the Fengverse~!</h1>
+                            <p class="subtitle">Creating whatever and whenever I want!</p>
+                            <p class="description">
+                                My name is Feng and I make art for anything I am interested in! My art style varies as time passes because I learn new things and want to implement it in my style!
+                            </p>
+                            <div class="cta-buttons">
+                                <a href="/works.html" class="btn btn-primary">View Portfolio</a>
+                                <a href="/about.html" class="btn btn-outline-dark">About Me</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="character-container">
+                            <img src="./media/fengsona.png" alt="Artist Character" class="character-image">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="featured-works">
+            <div class="container">
+                <h2>Featured Works of mine!</h2>
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="work-card">
+                            <div class="work-image" style="background-image: url(./media/valeria.png)"></div>
+                            <div class="work-info">
+                                <h3>Portrait of Valeria</h3>
+                                <p>A classic red and blue background with one of fortnite's bosses, Valeria.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="work-card">
+                            <div class="work-image" style="background-image: url(./media/brazilmiku.png)"></div>
+                            <div class="work-info">
+                                <h3>Hit Trend: Brazillian Miku!</h3>
+                                <p>A spin to the past trend on twitter/X of Brazillian Hatsune Miku.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="work-card">
+                            <div class="work-image" style="background-image: url(./media/valeria_icon.png)"></div>
+                            <div class="work-info">
+                                <h3>Halloween Valeria</h3>
+                                <p>A bust up portrait I created of Valeria from the game Fortnite for Halloween.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="text-center mt-4">
+                    <a href="./pages/works.html" class="btn btn-outline-dark">View All My Works!</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h3>FENG</h3>
+                    <p>Visual Artist, Illustrator and Aspiring Concept Artist.</p>
+                </div>
+                <div class="col-md-6">
+                    <div class="social-links">
+                        <a href="https://www.instagram.com/fengdoodleswhat?igsh=cmd5eHZpZnBtazln&utm_source=qr" target="_blank"><i class="fab fa-instagram"></i></a>
+                        <a href="https://x.com/fengdoodleswhat?s=21" target="_blank"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-3">
+                <div class="col-12">
+                    <p class="copyright">&copy; 2025 FENGDOODLESWHAT. All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Paint drop canvas for animation effects -->
+    <canvas id="paint-canvas"></canvas>
+    
+    <script src="./javascript/slideshow.js"></script>
+    <script src="./javascript/custom_cursor.js"></script>
+    <script src="./javascript/page_transitions.js"></script>
+    <script src="./javascript/paint_animation.js"></script>
+    <script src="./javascript/lightbox.js"></script>
+    <script src="./javascript/audio_player.js"></script>
+    <script src="./javascript/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    
+</body>
+</html>
