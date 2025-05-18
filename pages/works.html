@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Works - Feng's Portfolio</title>
+    
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+</head>
+<body class="page-works">
+    <div class="slideshow-container" id="slideshow-container">
+        <!-- Slideshow images will be injected here via JavaScript -->
+    </div>
+
+    <header>
+        <div class="container">
+            <nav class="navbar navbar-expand-lg">
+                <div class="navbar-logo">
+                    <img src="../media/logo.png" alt="Logo" class="logo-image">
+                </div>
+                <a class="navbar-brand" href="/">FENG</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="../index.html" data-nav="home">Home</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="./works.html" data-nav="works">Works</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./about.html" data-nav="about">About Me</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="works-header">
+            <div class="container">
+                <h1>My Works!</h1>
+                <p class="lead">A collection of my works I've done over the past years! </p>
+            </div>
+        </section>
+
+        <section class="works-filter">
+            <div class="container">
+                <div class="filter-btns">
+                    <button class="btn btn-outline-dark active" data-filter="all">All</button>
+                    <button class="btn btn-outline-dark" data-filter="rendered">Rendered</button>
+                    <button class="btn btn-outline-dark" data-filter="sketches">Sketches/WIP</button>
+                    <button class="btn btn-outline-dark" data-filter="conceptual">Conceptual</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="works-gallery">
+            <div class="container">
+                <div class="row works-grid">
+                    <div class="col-md-4 col-sm-6 work-item" data-category="rendered">
+                        <div class="work-card">
+                            <div class="work-image" style="background-image: url('../media/birthday.png')"></div>
+                            <div class="work-info">
+                                <h3>Ryu's birthday art!</h3>
+                                <p>Rendered Art, 2025</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 work-item" data-category="sketches">
+                        <div class="work-card">
+                            <div class="work-image" style="background-image: url('../media/gang_lineart.png')"></div>
+                            <div class="work-info">
+                                <h3>(WIP) Blaire Ghost Hunters</h3>
+                                <p>Sketch/WIP, 2025</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 work-item" data-category="conceptual">
+                        <div class="work-card">
+                            <div class="work-image" style="background-image: url(../media/game_concept_design_1.png)"></div>
+                            <div class="work-info">
+                                <h3>Game Concept Sketch</h3>
+                                <p>Concept Art, 2025</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 work-item" data-category="rendered">
+                        <div class="work-card">
+                            <div class="work-image" style="background-image: url('../media/hope_and_megalodon.png')"></div>
+                            <div class="work-info">
+                                <h3>Battle of Nitro</h3>
+                                <p>Rendered Art, 2024</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 work-item" data-category="sketches">
+                        <div class="work-card">
+                            <div class="work-image" style="background-image: url('../media/hanabi doodle.png')"></div>
+                            <div class="work-info">
+                                <h3>Hanabi from MLBB doodle</h3>
+                                <p>Sketch/WIP, 2025</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 work-item" data-category="conceptual">
+                        <div class="work-card">
+                            <div class="work-image" style="background-image: url('../media/game_concept_design_2.jpeg')"></div>
+                            <div class="work-info">
+                                <h3>Character Concept Sketch</h3>
+                                <p>Concept Art, 2025</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 work-item" data-category="rendered">
+                        <div class="work-card">
+                            <div class="work-image" style="background-image: url('../media/nemia_poster.png');"></div>
+                            <div class="work-info">
+                                <h3>Nemia - Demonically Cute</h3>
+                                <p>Rendered Art, 2025</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 work-item" data-category="rendered">
+                        <div class="work-card">
+                            <div class="work-image" style="background-image: url('../media/birthday art.png');"></div>
+                            <div class="work-info">
+                                <h3>9S Birthday Art</h3>
+                                <p>Rendered Art, 2025</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 work-item" data-category="rendered">
+                        <div class="work-card">
+                            <div class="work-image" style="background-image: url('../media/contest_entry.png');"></div>
+                            <div class="work-info">
+                                <h3>Elethia Contest Entry 2024</h3>
+                                <p>Rendered Art, 2024</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 work-item" data-category="conceptual">
+                        <div class="work-card">
+                            <div class="work-image" style="background-image: url('../media/yanna concept.png');"></div>
+                            <div class="work-info">
+                                <h3>Yanna Character Concept</h3>
+                                <p>Concept Art, 2025</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 work-item" data-category="conceptual">
+                        <div class="work-card">
+                            <div class="work-image" style="background-image: url('../media/theo concept art.png');"></div>
+                            <div class="work-info">
+                                <h3>Theo Character Concept</h3>
+                                <p>Concept Art, 2025</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 work-item" data-category="conceptual">
+                        <div class="work-card">
+                            <div class="work-image" style="background-image: url('../media/game_concept_design_3.jpeg');"></div>
+                            <div class="work-info">
+                                <h3>Character Concept Sketch 2</h3>
+                                <p>Concept Art, 2025</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h3>FENG</h3>
+                    <p>Visual Artist, Illustrator and Aspiring Concept Artist.</p>
+                </div>
+                <div class="col-md-6">
+                    <div class="social-links">
+                        <a href="https://www.instagram.com/fengdoodleswhat?igsh=cmd5eHZpZnBtazln&utm_source=qr" target="_blank"><i class="fab fa-instagram"></i></a>
+                        <a href="https://x.com/fengdoodleswhat?s=21" target="_blank"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-3">
+                <div class="col-12">
+                    <p class="copyright">&copy; 2025 FENGDOODLESWHAT. All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+    <!-- Paint drop canvas for animation effects -->
+    <canvas id="paint-canvas"></canvas>
+    
+    <script src="../javascript/slideshow.js"></script>
+    <script src="../javascript/custom_cursor.js"></script>
+    <script src="../javascript/page_transitions.js"></script>
+    <script src="../javascript/paint_animation.js"></script>
+    <script src="../javascript/lightbox.js"></script>
+    <script src="../javascript/audio_player.js"></script>
+    <script src="../javascript/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    
+</body>
+    
+</html>
