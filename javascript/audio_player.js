@@ -25,7 +25,7 @@ document.addEventListener('DOMContentLoaded', function() {
 function initBackgroundAudio() {
   // Create audio element if it doesn't exist
   if (!backgroundAudio) {
-    backgroundAudio = new Audio('/media/Lil Peep & XXXTENTACION vs. Childish Gambino - Falling Heartbeat (Mashup).mp3');
+    backgroundAudio = new Audio('./media/Lil Peep & XXXTENTACION vs. Childish Gambino - Falling Heartbeat (Mashup).mp3');
     backgroundAudio.loop = true;
     backgroundAudio.volume = audioVolume;
   }
