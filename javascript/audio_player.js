@@ -1,6 +1,6 @@
 /**
  * Background audio player
- * Plays ambient music that persists across page navigation
+ * Plays music that persists across page navigation
  * Uses session storage to remember playback position between page loads
  */
 
