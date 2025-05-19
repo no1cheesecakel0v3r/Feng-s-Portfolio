@@ -5,12 +5,12 @@
 
 // Array of artwork URLs for slideshow
 const slideshowImages = [
-    '/media/columttoreart.png',
-    '/media/contest_entry.png',
-    '/media/nemia_poster.png',
-    '/media/valeria.png',
-    '/media/valeria_icon.png',
-    '/media/gang_lineart.png'
+    '../media/columttoreart.png',
+    '../media/contest_entry.png',
+    '../media/nemia_poster.png',
+    '../media/valeria.png',
+    '../media/valeria_icon.png',
+    '../media/gang_lineart.png'
 ];
 
 // Current slide index
